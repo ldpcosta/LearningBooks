@@ -1,6 +1,8 @@
 
 # Create a string that says how many types of ppl there are
 x = "There are %d types of people." % 10
+## Exercise 6 - Strings and Text
+
 
 # make var binary
 binary = "binary"

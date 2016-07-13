@@ -1,0 +1,57 @@
+### Exercise 22
+
+print - prints text to the screen
+	strings can be concatenated with "," or +
+	, - appends a " " character automatic, prevents "\n" character
+	+ - need to add the space
+
+# - comments out text
+%s, %d, %r -> formatters in strings, string, digit and raw
+
+escape characters
+\n
+\t
+\\
+\"
+\'
+etc.
+
+Ways to print
+' sdfsdfa '
+" sdfsdfa "
+''' sdfsdfa ''' 
+
+Functions
+input() - allows python code on input
+raw_input()
+
+Documentation
+python -m pydoc [function]
+
+Libraries
+sys / argv -allows use of command line arguments
+	must unpack the arguments at the start, first one is always the script
+
+os.path / exists = returns true if file of that name exists, false if it doesn't
+
+Files
+	open(filename, "r/a/w") - opens the file, in read write or append mode
+	close(filename) - closes the file
+	file.read() = reads the whole file
+	file.truncate() = erases the whole file
+	file.write(string) = appends string to the file, where the cursor is
+	file.seek(n) - changes the cursor to the nth position
+	file.readline() - reads line, puts cursor at the end of that line.
+
+
+	
+Math operators
++ plus
+- minus
+/ slash
+* asterisk
+% percent -> also, remainder from division
+< less-than
+> greater-than
+<= less-than-equal
+>= greater-than-equal
